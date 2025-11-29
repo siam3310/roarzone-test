@@ -107,6 +107,7 @@ async def main():
         print(f"Generating M3U playlist: {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
+            f.write("# Made with love by Mahamudun Nabi Siam\n")
             f.write(f"# Generated at {time.ctime()}\n\n")
             for channel in valid_channels:
                 name = channel["name"].replace(",", " ")
