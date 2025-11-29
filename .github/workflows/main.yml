@@ -1,4 +1,4 @@
-name: Run Python Script and Commit Playlist
+name: Run Python Script
 
 on:
   schedule:
